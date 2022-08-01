@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/defi-wonderland/keep3r-cli-job-boilerplate.git"
+    "url": "git+https://github.com/donoso-eth/keep3r-cli-job-increase-counter.git"
   },
   "license": "MIT",
   "author": "DONOSO ETH",
