@@ -1,6 +1,6 @@
 {
   "name": "keep3rtest",
-  "version": "1.0.1",
+  "version": "1.0.2-rc.0",
   "description": "keep3rTest",
   "keywords": [
     "keep3r",
@@ -33,6 +33,7 @@
     "pre-release": "yarn build && standard-version --prerelease rc"
   },
   "dependencies": {
+    "@defi-wonderland/keep3r-cli-job-boilerplate": "^1.0.2",
     "@keep3r-network/cli-utils": "1.0.0",
     "ethers": "5.5.1"
   },
@@ -41,20 +42,20 @@
     "@commitlint/config-conventional": "12.1.4",
     "@dethcrypto/eth-sdk": "^0.2.4",
     "@dethcrypto/eth-sdk-client": "^0.1.6",
+    "@typescript-eslint/eslint-plugin": "4.33.0",
+    "@typescript-eslint/parser": "4.33.0",
     "cross-env": "7.0.3",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "husky": ">=6",
+    "lint-staged": ">=10",
     "prettier": "2.3.1",
     "prettier-plugin-organize-imports": "2.3.3",
     "sort-package-json": "1.50.0",
     "standard-version": "9.3.0",
     "ts-node": "10.0.0",
-    "typescript": "4.3.2",
-    "husky": ">=6",
-    "eslint": "7.32.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-prettier": "4.0.0",
-    "lint-staged": ">=10",
-    "@typescript-eslint/eslint-plugin": "4.33.0",
-    "@typescript-eslint/parser": "4.33.0"
+    "typescript": "4.3.2"
   },
   "lint-staged": {
     "*.ts": "yarn lint"
